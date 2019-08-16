@@ -1,0 +1,59 @@
+body {
+  font-family: Helvetica;
+
+  background-image: url("woodbackgroundtwo.jpg");
+  text-align: center;
+  div {
+  font-size-adjust: 0.58;
+}
+
+}
+
+.header {
+  padding: 10px; /* some padding */
+  text-align: center; /* center the text */
+  background-image:  "woodbackgroundtwo";
+  color:  white;
+}
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #41282d; /* Dark background color */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+
+.navbar a:hover {
+  background-color: #905a65;
+  color: black;
+  }
+}
+a {
+  color:rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: "Lucida Calligraphy";
+    font-size: 70px;
+    font-style: oblique;
+}
+
+p{
+    font-family: courier;
+    font-size: 16px;
+    font-style: bold;
+}

@@ -44,7 +44,7 @@ body, html {
 #About #Us #and #Sources {background-image: "woodbackgroundtwo";}
 </style>
 </head>
-<body onload="openPage('Home, this, '#161615')">
+<body onload="openPage('Home', this, '#161615')">
 
 <div class="header">
 <h1>Diversity in the Workforce</h1>
@@ -58,7 +58,7 @@ body, html {
 <button class="tablink" onclick="openPage('Potential Solutions', this, '#341514')">Potential Solutions</button>
 <button class="tablink" onclick="openPage('About Us and Sources', this, '#161615')">About Us and Sources</button>
 
-
+<div id="1st">
 <div id="Home" class="tabcontent">
   <div><p>Diversity in the workplace is something that is very important to a lot of people. It not only helps the company that the people work for, but the mindset of the current ones working.
   More people want to work in a diversified workplace than not, with around 67% of people looking for jobs in an actively diversified workplace, as gathered in a study by Glassdoor. When people actively support and hire diversified teams, it makes for a more productive job too. Racially diversified teams not only make more revenue, 19% to be exact (Boston Consulting Group), but they outperform the average team by 35% (McKinsey).
@@ -165,7 +165,7 @@ function openPage(pageName,elmnt,color) {
   elmnt.style.backgroundColor = color;
 }
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+//document.getElementById("defaultOpen").click();
 </script>
 
 </body>

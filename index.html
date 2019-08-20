@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
-  
 <head>
   <link rel="stylesheet" href="finalproject.css">
   <script src="finalproject.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 * {box-sizing: border-box}
+/*img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}*/
+
 /* Set height of body and the document to 100% */
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Helvetica;
+  font-family: Georgia;
 }
+
 /* Style tab links */
 .tablink {
   background-color: black;
@@ -25,9 +33,11 @@ body, html {
   font-size: 17px;
   width: 25%;
 }
+
 .tablink:hover {
-  background-color: #D5D8DC;
+  background-color: #06052A;
 }
+
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: white;
@@ -35,32 +45,34 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
-#Home {background-image: "woodbackgroundtwo";}
-#Ethnic #Differences {background-image: "woodbackgroundtwo";}
-#Language #and #Communication {background-image: "woodbackgroundtwo";}
-#Age #Differences {background-image: "woodbackgroundtwo";}
-#Financial #Situations  {background-image: "woodbackgroundtwo";}
-#Solutions  {background-image: "woodbackgroundtwo";}
-#About #Us #and #Sources {background-image: "woodbackgroundtwo";}
+
+#Home {background-image: "blackwood";}
+#Ethnic #Differences {background-image: "blackwood";}
+#Language #and #Communication {background-image: "blackwood";}
+#Age #Differences {background-image: "blackwood";}
+#Financial #Situations  {background-image: "blackwood";}
+#Solutions  {background-image: "blackwood";}
+#About #Us #and #Sources {background-image: "blackwood";}
 </style>
 </head>
-<body onload="openPage('Home', this, '#161615')">
+<body onload="openPage('Home', this, '#1E1E2B15');">
 
 <div class="header">
 <h1>Diversity in the Workforce</h1>
-<p>By: Nisa Choudhury, Sara Burgi, Mugheesah Alidina, Alexis Rivera</p>
+<h4>By: Nisa Choudhury, Sara Burgi, Mugheesah Alidina, Alexis Rivera</h4>
 </div>
-<button class="tablink" onclick="openPage('Home', this, '#161615')">Home</button>
-<button class="tablink" onclick="openPage('Ethnic Differences', this, '#341514')">Ethnic Differences</button>
-<button class="tablink" onclick="openPage('Language and Communication', this, '#161615')">Language and Communications</button>
-<button class="tablink" onclick="openPage('Age Differences', this, '#341514')">Age Differences</button>
-<button class="tablink" onclick="openPage('Financial Situations', this, '#161615')">Financial Situations</button>
-<button class="tablink" onclick="openPage('Potential Solutions', this, '#341514')">Potential Solutions</button>
-<button class="tablink" onclick="openPage('About Us and Sources', this, '#161615')">About Us and Sources</button>
+<button class="tablink" onclick="openPage('Home', this, '#1E1E2B')">Home</button>
+<button class="tablink" onclick="openPage('Ethnic Differences', this, '#1E1E2B')">Ethnic Differences</button>
+<button class="tablink" onclick="openPage('Language and Communication', this, '#1E1E2B')">Language and Communications</button>
+<button class="tablink" onclick="openPage('Age Differences', this, '#1E1E2B')">Age Differences</button>
+<button class="tablink" onclick="openPage('Financial Situations', this, '#1E1E2B')">Financial Situations</button>
+<button class="tablink" onclick="openPage('Potential Solutions', this, '#1E1E2B')">Potential Solutions</button>
+<button class="tablink" onclick="openPage('About Us and Sources', this, '#1E1E2B')">About Us and Sources</button>
 
 <div id="1st">
+
 <div id="Home" class="tabcontent">
-  <div><p>Diversity in the workplace is something that is very important to a lot of people. It not only helps the company that the people work for, but the mindset of the current ones working.
+  <div><p>Introduction:</p><p>Diversity in the workplace is something that is very important to a lot of people. It not only helps the company that the people work for, but the mindset of the current ones working.
   More people want to work in a diversified workplace than not, with around 67% of people looking for jobs in an actively diversified workplace, as gathered in a study by Glassdoor. When people actively support and hire diversified teams, it makes for a more productive job too. Racially diversified teams not only make more revenue, 19% to be exact (Boston Consulting Group), but they outperform the average team by 35% (McKinsey).
   Language and communication across multiple different groups of people connect. Connecting with other multilingual people and companies is integral for the survival of a diverse workplace, and this can only happen by hiring more people who speak more languages.(International Business Seminars)</p></div>
   <div><img src="people.jpg" height= "200px"><img src="peopletwo.jpg" height="200px"><img src="peoplethree.jpg" height="200px"></div>
@@ -70,19 +82,20 @@ body, html {
 </div>
 
 <div id="Ethnic Differences" class="tabcontent">
-  <p>The most recent data from the U.S. Census Bureau articulated that racial and ethnic discrimination affect the aspect of employment
+  <p>Background Complex:</p>
+  <p>The most recent data from the U.S. Census Bureau articulated that racial and ethnic discrimination affect the aspect of employment.
 
   No individual can be denied equal employment opportunity because of his/her birthplace, ancestry, culture, linguistic characteristics, or accent.
 
-  African Americans and Hispanics are underrepresented in STEM jobs, along with their presence in the overall U.S. workforce
+  African Americans and Hispanics are underrepresented, particularly in STEM jobs, along with their presence in the overall U.S. workforce.
 
-  Together, these two groups are accounted for only 16% of those employed in a STEM occupation.</p>
+  Together, these two groups are accounted for only 16% of those employed in a STEM occupation. As they are not often employed, being who they are, they face the issue of marginalization, in which the way they are perceived even affects the outlook of the workforce racially.  </p>
   <div>  </div>
     <div><img src="actualone.jpg" height= "300px"><img src="pie.jpg"height= "300px" onmouseover="bigimg(this)" onmouseout="normal(this)"></div>
 </div>
 
 <div id="Language and Communication" class="tabcontent">
-  <p>According to Cary Funk and Kim Parker, from pewsocialtrends.org, cultural and language differences can hinder effective communication. Workers who are not fluent in the primary language used in the workplace may have difficulty expressing their needs or responding to requests from colleagues.
+  <p>According to Cary Funk and Kim Parker:</p> <p>Cultural and language differences can hinder effective communication. Workers who are not fluent in the primary language used in the workplace may have difficulty expressing their needs or responding to requests from colleagues.
 Workers may then be unwilling to adjust to the ways of workers from different cultural backgrounds than their own
 Although the most commonly spoken language in the United States is English, the number of people speaking other languages is increasing.
 An article by Deloitte, “Diversity and inclusion is not an HR strategy; it is a business strategy… research also shows that teams that operate in an inclusive culture outperform their peers by a staggering 80 percent.” Henceforth, an open and widespread community can enable industries to thrive.</p>
@@ -98,75 +111,3 @@ The stereotype of having a “technology addiction” seemed to have spread quit
 As far as older individuals seeking for a job, they also face a stereotype of being unable to work with technology.
 The chances of having some work experience is quite high, yet companies refuse to consider otherwise.
 As a result, it is imperative for the industry to change its mindset and be more open to the community.</p>
-
-  <div><img src="age.jpg" height= "400px"></div>
-</div>
-
-<div id="Financial Situations" class="tabcontent">
-  <p>Authors of the paper titled “Childhood Environment and Gender Gaps in Adulthood”, Raj Chetty, Nathaniel Hendren, Frina Lin, Jeremy Majerovitz, and Benjamin Scuderi,  found that:</p>
-<p>If both parents have a high income, men are more likely to get hired than women.
-If both parents make much less money, women are more likely to be hired for jobs.
-Another paper by Caroline Ratcliffe showed that children from birth through age 17 show a much greater prevalence of poverty than government censuses.
-Four out of every 10 children are poor for at least one year before they reach their 18th birthday.
-In black families, about 75% are poor at any point during childhood. That same statistic for white children is a lot, but considerably lower at approximately 30%.</p>
-
-  <div><img src="wallet.jpg" height= "300px"><img src="stressie.jpg" height= "300px"></div>
-</div>
-
-<div id="Potential Solutions" class="tabcontent">
-<p>Based on the collected data regarding the situation of  anti diversity in the workforce, it can be said that ways to prevent this issue include:</p>
-<p>Making sure equal opportunities are given to minorities and low-income neighborhoods.
-Holding employers and employees responsible for the lack of diversity in the workplace.
-Sharing the decision-making process.
-Paying attention to organizational culture to promote a welcoming environment.
-Be aware of unconscious bias and unfair judgement in favor of one person or group over the other.</p>
-
-  <div><img src="puzzle.jpg" height= "300px"><img src="lotsapeople.jpg" height= "300px"></div>
-  <div><iframe width="560" height="315" src="https://www.youtube.com/embed/8TyAIAx_s24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</div>
-
-<div id="About Us and Sources" class="tabcontent">
-  <p>Biography:</p>
- <p>Nisa, Mugheesah, Sara, and Alexis are four young women from different backgrounds who aspire to pursue their dreams through hard work and education. They have a strong belief in standing up for the community despite all the bias and stereotypes for a better tomorrow. They believe a  diverse workforce and advocating for one can help transform the world for the better.</p>
-
-  <div><img src="gwc.jpg" height="200px"><img src="abtus.jpg" height="200px"><img src="workforce.jpg" height="200px" width="300px"></div>
-  <p>Sources:</p>
-<div><a href="https://medium.com/hr-blog-resources/top-5-workplace-diversity-statistics-2f4ba1d03a2e">Medium - Top 5 workplace diversiy statistics</a></div>
-<div><a href="https://blog.teamable.com/6-statistics-that-will-convince-you-to-prioritize-diversity-inclusion">Teamable - 6 statistics that will convince you to prioritize diversity inclusion</a></div>
-<div><a href="https://www.weforum.org/agenda/2019/04/business-case-for-diversity-in-the-workplace/">Webforum - Buisness case for diversity in the workplace</a></div>
-<div><a href="https://www.bigthinkedge.com/diversity-in-the-workplace-4-common-challenges-and-solutions/"> Bigthinkedge - Diversity in the workplace 4 common challenges and solutions</a></div>
-<div><a href="https://www.statista.com/statistics/217882/us-unemployment-rate-by-age/">Statista - US employment rate by age</a></div>
-<div><a href="https://smallbusiness.chron.com/cultural-language-barriers-workforce-11928.html">Smallbuisness - Cultural language barriers in the workforce</a></div>
-<div><a href="https://www.bls.gov/opub/mlr/2016/beyond-bls/growing-up-in-high-poverty-areas-can-affect-your-employment.htm">BLS - Growing up in high poverty areas can affect your employment</a></div>
-<div><a href="https://www.pewsocialtrends.org/2018/01/09/blacks-in-stem-jobs-are-especially-concerned-about-diversity-and-discrimination-in-the-workplace/">Pewsocialtrends - Blacks in STEM jobs are especially concerned about diversity and discrimination in the workplace</div>
-<div><a href="https://www.glassdoor.com/employers/blog/diversity/">Glassdoor -  What job seekers really think of your diversity stats</a></div>
-<div><a href="https://www.bcg.com/en-us/publications/2018/how-diverse-leadership-teams-boost-innovation.aspx">Boston Consulting Group - How diverse leadership teams boost innovation</a></div>
-<div><a href="https://www.mckinsey.com/business-functions/organization/our-insights/why-diversity-matters">McKinsey - Why diversity matters</a></div>
-<div><a href="https://ibstours.com/blog/second-language-in-the-workplace/">International Business Seminars - Benefits of knowing a second language in the workplace</a></div>
-<div><a href="https://www.inc.com/peter-economy/the-millennial-workplace-of-future-is-almost-here-these-3-things-are-about-to-change-big-time.html">Inc - The (Millennial) workplace of the future is almost here</a></div>
-
-    </div>
-  </div>
-
-  </div>
-</div>
-<script>
-function openPage(pageName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-}
-// Get the element with id="defaultOpen" and click on it
-//document.getElementById("defaultOpen").click();
-</script>
-
-</body>
-</html>

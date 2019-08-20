@@ -1,18 +1,21 @@
 body {
-  font-family: Helvetica;
+  font-family: Georgia;
 
-  background-image: url("woodbackgroundtwo.jpg");
-  text-align: center;
-  div {
+  background-image: url("blackwood.jpg");
+   text-align: center;
+   div {
   font-size-adjust: 0.58;
 }
+}
 
+p{
+  text-align: left;
 }
 
 .header {
   padding: 10px; /* some padding */
   text-align: center; /* center the text */
-  background-image:  "woodbackgroundtwo";
+  background-image:  "blackwood.jpg";
   color:  white;
 }
 .header h1 {
@@ -44,16 +47,17 @@ body {
 }
 a {
   color:rgb(255, 255, 255);
+  text-align: left;
 }
 
 h1 {
-    font-family: "Lucida Calligraphy";
+    font-family: "Georgia";
     font-size: 70px;
     font-style: oblique;
 }
 
 p{
-    font-family: courier;
+    font-family: Georgia;
     font-size: 16px;
     font-style: bold;
 }
